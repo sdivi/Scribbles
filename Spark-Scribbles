@@ -1,5 +1,19 @@
 Reference video:-
 https://www.youtube.com/watch?v=7ooZ4S7Ay6Y&t=1524s
 
+Slides:-
+https://www.youtube.com/redirect?v=7ooZ4S7Ay6Y&redir_token=GLhppjsOmi1_kM-PV7q2FTeFjzt8MTUzNzk3NzQzMUAxNTM3ODkxMDMx&event=video_description&q=https%3A%2F%2Fspark-summit.org%2Fwp-content%2Fuploads%2F2015%2F03%2FSparkSummitEast2015-AdvDevOps-StudentSlides.pdf
+
 Caching an RDD :-
 Caching an RDD will just a lazy transformation
+
+Q : Where will cache RDD be stored ?
+Ans:-
+
+Q: How will spark work on per partition basis ?
+Ans:-
+
+
+Q:-What is a joined RDD and CassandraRDD?
+Ans:-
+
