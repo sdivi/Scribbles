@@ -5,7 +5,7 @@ Slides:-
 https://www.youtube.com/redirect?v=7ooZ4S7Ay6Y&redir_token=GLhppjsOmi1_kM-PV7q2FTeFjzt8MTUzNzk3NzQzMUAxNTM3ODkxMDMx&event=video_description&q=https%3A%2F%2Fspark-summit.org%2Fwp-content%2Fuploads%2F2015%2F03%2FSparkSummitEast2015-AdvDevOps-StudentSlides.pdf
 
 Caching an RDD :-
-Caching an RDD will just a lazy transformation
+Caching an RDD will just a lazy transformation determine which rdd should be cached based on how many times we are reuisng the RDD
 
 Q : Where will cache RDD be stored ?
 Ans:-
