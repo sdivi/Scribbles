@@ -26,3 +26,6 @@ https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf
 
 white paper on spark streaming
 http://sigops.org/s/conferences/sosp/2013/papers/p423-zaharia.pdf
+
+splitSize vs blockSize in hadoop
+https://stackoverflow.com/questions/30549261/split-size-vs-block-size-in-hadoop
