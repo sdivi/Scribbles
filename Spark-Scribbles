@@ -30,3 +30,9 @@ http://sigops.org/s/conferences/sosp/2013/papers/p423-zaharia.pdf
 
 splitSize vs blockSize in hadoop
 https://stackoverflow.com/questions/30549261/split-size-vs-block-size-in-hadoop
+
+Recommended memory Usages:-
+Use at most 75% of a machines memory for Spark
+Minimum executor heap size should be 8Gb
+Max executor heap size depends... may be 40GB(watchout for GC)
+Memory Usage is greatly affected by storage level and serialization format
