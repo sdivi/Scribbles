@@ -37,3 +37,24 @@ Minimum executor heap size should be 8Gb
 Max executor heap size depends... may be 40GB(watchout for GC)
 Memory Usage is greatly affected by storage level and serialization format
 Decide how you want to manage the GC
+
+
+How does spark decide the Job -> Stages -> Tasks
+
+When will stages run in parallel ?
+
+Will Tasks tun in parallel ?
+
+How are partitions determined ?
+
+
+Narrow vs Wide Tramsformations 
+
+
+Scheduling Process 
+
+RDD Objects -> DAG Scheduler -> Task Scheduler -> Executor
+
+DAG Scheduler Submits each stage or parallel stages
+Task Scheduler launches individual tasks and retry for failed tasks
+Executor execute tasks store and serve blocks
