@@ -49,10 +49,10 @@ How are partitions determined ?
 
 
 Narrow vs Wide Tramsformations 
-
+Narrow transformation :- narrow dependencies, where each partition of the parent RDD is used by at most one partition of the chid RDD
+Wide transformation :- wide dependencies, where multiple child partitions may depend on it.
 
 Scheduling Process 
-
 RDD Objects -> DAG Scheduler -> Task Scheduler -> Executor
 
 DAG Scheduler Submits each stage or parallel stages
