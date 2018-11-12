@@ -38,7 +38,7 @@ Max executor heap size depends... may be 40GB(watchout for GC)
 Memory Usage is greatly affected by storage level and serialization format
 Decide how you want to manage the GC
 
-
+-----------------------------------------------------------------------
 How does spark decide the Job -> Stages -> Tasks
 
 When will stages run in parallel ?
@@ -52,9 +52,13 @@ Narrow vs Wide Tramsformations
 Narrow transformation :- narrow dependencies, where each partition of the parent RDD is used by at most one partition of the chid RDD
 Wide transformation :- wide dependencies, where multiple child partitions may depend on it. (Should effectively cache RDD so that we are not involving shuffle many times)
 
+----------------------------------------------------------------------
 Scheduling Process 
 RDD Objects -> DAG Scheduler -> Task Scheduler -> Executor
 
 DAG Scheduler Submits each stage or parallel stages
 Task Scheduler launches individual tasks and retry for failed tasks
 Executor execute tasks store and serve blocks
+
+
+
