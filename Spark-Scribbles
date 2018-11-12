@@ -36,3 +36,4 @@ Use at most 75% of a machines memory for Spark
 Minimum executor heap size should be 8Gb
 Max executor heap size depends... may be 40GB(watchout for GC)
 Memory Usage is greatly affected by storage level and serialization format
+Decide how you want to manage the GC
