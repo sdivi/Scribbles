@@ -60,5 +60,14 @@ DAG Scheduler Submits each stage or parallel stages
 Task Scheduler launches individual tasks and retry for failed tasks
 Executor execute tasks store and serve blocks
 
+-------------------------------------------------------------------------------
+BroadCast Variables & Accumulators
 
+Broadcast Variables :-
+Send a large read-only lookup table to all the nodes, or send a large feature vector in a ML algorithm to all nodes 
 
+Accumulators :-
+count events that occur during job execution for edbugging purposes.
+Example:- How many lines of the input file were blank? Or how many corrupt records were in the input dataset?
+
+How does broadcast variables avoid shuffle ?
